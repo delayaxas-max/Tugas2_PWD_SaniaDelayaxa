@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Mahasiswa</title>
+</head>
+<body>
+
+<h2>Form Mahasiswa</h2>
+<form>
+<fieldset>
+<legend>Data Mahasiswa</legend>
+<table>
+<tr>
+    <td>Nama</td>
+    <td>:</td>
+    <td><input type="text" name="nama"></td>
+</tr>
+<tr>
+    <td>NPM</td>
+    <td>:</td>
+    <td><input type="text" name="npm"></td>
+</tr>
+<tr>
+    <td>Kelas</td>
+    <td>:</td>
+    <td><input type="text" name="kelas"></td>
+</tr>
+<tr>
+    <td>Jenis Kelamin</td>
+    <td>:</td>
+    <td>
+        <input type="radio" name="jk" value="pria">Pria
+        <input type="radio" name="jk" value="wanita">Wanita
+    </td>
+</tr>
+</table>
+</fieldset>
+
+<fieldset>
+<legend>Tempat Tinggal Mahasiswa</legend>
+<table>
+<tr>
+    <td>Alamat</td>
+    <td>:</td>
+    <td><textarea name="alamat" rows="3" cols="30"></textarea></td>
+</tr>
+<tr>
+    <td>Kecamatan</td>
+    <td>:</td>
+    <td><input type="text" name="kecamatan"></td>
+</tr>
+<tr>
+    <td>Kabupaten/Kotamadya</td>
+    <td>:</td>
+    <td><input type="text" name="kabupaten"></td>
+</tr>
+<tr>
+    <td>Provinsi</td>
+    <td>:</td>
+    <td><input type="text" name="provinsi"></td>
+</tr>
+<tr>
+    <td>Kode Pos</td>
+    <td>:</td>
+    <td><input type="text" name="kodepos"></td>
+</tr>
+</table>
+</fieldset>
+
+<fieldset>
+<legend>Lain-lainnya</legend>
+<table>
+<tr>
+    <td>Bahasa Pemrograman</td>
+    <td>:</td>
+    <td>
+        <input type="checkbox" name="bahasa" value="c">C / C++
+        <input type="checkbox" name="bahasa" value="go">Go Lang
+        <input type="checkbox" name="bahasa" value="python">Python
+        <input type="checkbox" name="bahasa" value="lainnya">Lainnya<br>
+        <input type="checkbox" name="bahasa" value="php">PHP
+        <input type="checkbox" name="bahasa" value="javascript">Javascript
+        <input type="checkbox" name="bahasa" value="ruby">Ruby
+    </td>
+</tr>
+<tr>
+    <td>Kegiatan</td>
+    <td>:</td>
+    <td>
+        <input type="checkbox" name="kegiatan" value="organisasi">Organisasi Kemahasiswaan
+        <input type="checkbox" name="kegiatan" value="olahraga">Bidang Olahraga
+        <input type="checkbox" name="kegiatan" value="lainnya">Lainnya<br>
+        <input type="checkbox" name="kegiatan" value="organisasi_luar">Organisasi di Luar Kampus
+        <input type="checkbox" name="kegiatan" value="seni">Bidang Seni
+    </td>
+</tr>
+</table>
+</fieldset>
+<br>
+<input type="reset" value="Reset">
+<input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
